@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>L’attualità di Francesco Petrarca</title>
+                <author>Maria Gloria Cusumano Mazzi</author>
+                <respStmt xml:id="EF">
+                    <resp>codifica di</resp>
+                    <name>Emanuela Fortuna</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Edizione digitale realizzata in <date when="2023">2023</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Emanuela Fortuna</distributor>
+                <availability status="free">
+                    <p>
+                        Questa edizione digitale è libera e diffusa attraverso GitHub
+                    </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>
+                    La codifica riguarda la prima sezione dell'articolo.
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Maria Gloria Cusumano Mazzi</author>
+                        <title level="a">L’attualità di Francesco Petrarca</title>
+                    </analytic>                    
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>La codifica del testo è stata realizzata rispettando le linee guida TEI P5 come esercitazione del corso di Codifica dei Testi dell'Università di Pisa.</p>
+                <p>L'esercizio consiste nella codifica di un articolo di rivista.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="section" n="1">
+                <p n="1">
+                    <lb n="1"/>
+                    This paper discusses the topicality of Petrarch, the Italian poet who
+                    <lb n="2"/>
+                    marked the beginning of the modern culture and who presented, for the first
+                    <lb n="3"/>
+                    time, the intellectual as a professional. Considered the father of the Humanism,
+                    <lb n="4"/>
+                    the poet, with another humanists, rediscovered human and historical values,
+                    <lb n="5"/>
+                    which allow man to comprehend himself and the world he lives in.
+                    <lb n="6"/>
+                    A più di 700 anni dalla nascita di <persName>Francesco Petrarca</persName>
+                    <lb n="7"/>
+                    gli intellettuali di oggi che si occupano di letteratura italiana devono a
+                    <lb n="8"/>
+                    lui la loro professionalità, e hanno ancora molto da imparare da questo
+                    <lb n="9"/>
+                    poeta, uno dei maggiori della letteratura occidentale.
+                    <lb n="10"/>
+                    Il presente articolo non intende esporre nessuna novità su un autore
+                    <lb n="11"/>
+                    che è stato studiato in ogni secolo, ma appena ricordarlo per la
+                    <lb n="12"/>
+                    sua sorprendente attualità.                    
+                </p>
+
+                <p n="2">
+                    <lb n="13"/>
+                     Il poeta del Canzoniere era umanamente contradditorio: amava la
+                    <lb n="14"/>
+                    gloria poetica, cercava l’applauso ma odiava la folla, rimanendo solo
+                    <lb n="15"/>
+                    sempre che potesse; parlava della fugacità delle cose terrene, ma non
+                    <lb n="16"/>
+                    sempre che potesse; parlava della fugacità delle cose terrene, ma non
+                    <lb n="17"/>
+                    Questi sono stati i suoi più grandi tormenti: 
+
+                    <list type="simple">
+  
+                        <lb n="18"/>
+                        <item>credere in una cosa e sentirne un’altra(<bibl>Petrarca, De Secreto</bibl>);</item>
+                        <lb n="19"/>
+                        <item>cercare nella letteratura, uno sfogo, ossia, un modo di esistere e di resistere.(<bibl>Petrarca, De secreto</bibl>);</item>                      
+ 
+                    </list>
+
+                      <lb n=20/>
+                      A propostito di questo vedere anche L'Africa <bibl><author>Petrarca</author>,<date>1338</date></bibl>                </p>
+
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
