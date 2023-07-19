@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+        <!--informazioni sul file, non sulla fonte primaria (che invece sono in sourceDesc)-->
+            <titleStmt>
+            <!--Codifica del titolo dell'edizione digitale--> 
+                <title>Codifica elettronica di una carta del Codice degli Abbozzi</title>
+                <author ref="#FP">Petrarca</author>
+                <respStmt xml:id="EF">
+                    <resp>Codifica TEI a cura di</resp>
+                    <name>Emanuela Fortuna</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Edizione digitale realizzata nel <date when="2023">2023</date>
+                </edition>
+                <principal>Emanuela Fortuna</principal>
+                <sponsor>Università di Pisa</sponsor>
+            </editionStmt>
+            <publicationStmt>
+            <!--Dati di diffusione e distribuzione dell'edizione-->
+                <distributor ref="#unipi">Università di Pisa</distributor>
+                <address>
+                    <addrLine>Lungarno Antonio Pacinotti 43,</addrLine>
+                    <addrLine>56126,</addrLine>
+                    <addrLine>Pisa (PI),</addrLine>
+                    <addrLine>IT</addrLine>
+                </address>
+                <availability status="free">
+                    <p>
+                        Questa edizione digitale è libera e diffusa attraverso GitHub</ref>.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+            <!--Descrizione della fonte primaria-->
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+                        <settlement type="city" ref="#CV">Città del Vaticano</settlement>
+                        <institution> Biblioteca Apostolica Vaticana  </institution>
+                        <collection>Fondo Vaticani Latini</collection>
+                        <idno>carta 7r</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1">
+                            <locus>c. 7r</locus>
+                            <title>Per mirar Policleto intento et fiso</title>
+                            <bibl>
+                            <title>38[77]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                        <msItem n="2">
+                            <locus>c. 7r</locus>
+                            <title>Quando giunse a Simon l'alto concepto</title>
+                            <bibl>
+                            <title>39[78]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                        <msItem n="3">
+                            <locus>c. 7r</locus>
+                            <title>Que' che'n tesaglia ebbe le man' sì pronte</title>
+                            <bibl>
+                            <title>40[44]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Fogli di <material>pergamena</material>.</support>
+                                <extent>20 carte</extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <p>Il manoscritto contiene testi scritti da Francesco Petrarca.</p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc> 
+        <!-- informazioni riguardo lo schema (e il modello di codifica) utilizzato-->
+            <projectDesc>
+                <p>La codifica del testo è stata realizzata rispettando le linee guida TEI come esercitazione del corso di Codifica di testi.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+        <!--descrizione del testo: quando è stato creato, da chi, usando quali lingue etc.-->
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <facsimile>
+          
+        <surface  xml:id="carta7r" start="#carta7r" n="1">
+            <graphic url="img/Vat.lat.3196_7r.jpg" width="600px" height="880px"/>
+
+            <zone ulx="71" uly="58" lrx="503" lry="93" xml:id="c7r_l1" start="#c7r_lb1"/>
+            <zone ulx="70" uly="94" lrx="504" lry="115" xml:id="c7r_l2" start="#c7r_lb2"/>
+            <zone ulx="69" uly="115" lrx="505" lry="136" xml:id="c7r_l3" start="#c7r_lb3"/>
+            <zone ulx="68" uly="137" lrx="504" lry="160" xml:id="c7r_l4" start="#c7r_lb4"/>
+            <zone ulx="67" uly="159" lrx="503" lry="187" xml:id="c7r_l5" start="#c7r_lb5"/>
+            <zone ulx="67" uly="188" lrx="503" lry="208" xml:id="c7r_l6" start="#c7r_lb6"/>
+            <zone ulx="67" uly="209" lrx="504" lry="231" xml:id="c7r_l7" start="#c7r_lb7"/>
+                               
+        </surface>
+    </facsimile>
+
+   
+
+             <text type="sonnet" xml:id="sonetto38">
+                <body>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="1" facs="#c7r_l1" xml:id="c7r_lb1"/><l><choice><abbr>P</abbr><expan resp="#EF" source="#LP" cert="high"><ex>Per</ex></expan></choice> mirar' <persName>policleto</persName> intento <choice><abbr>7</am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="a">fiso</rhyme></l>
+                            <space/><l><w>Con</w><w>gli</w><w>altri</w> <w>ch</w><w>ebber</w> fama di <w>quell</w><rhyme label="b"><w>arte</w></rhyme></l>
+                            <lb n="2" facs="#c7r_l2" xml:id="c7r_lb2" /><l>Mille <choice><abbr>ai</abbr><expan resp="#EF" source="#LP" cert="high">anni</expan></choice> <choice><abbr>n</abbr><expan resp="#EF" source="#LP" cert="high">no<ex>n</ex></expan></choice> uedrian la minor <rhyme label="b">parte</rhyme></l>
+                            <space/><l><w>De</w><w>la</w> belta che <w>m</w><w>aue</w> il cor <rhyme label="a"><choice><abbr>cquiso</abbr><expan resp="#EF" source="#LP" cert="high">co<ex>n</ex>quiso</expan></choice></rhyme></l>
+                        </lg>
+                        <lg type="quatrin" rhyme="abba">
+                            <lb n="3" facs="#c7r_l3" xml:id="c7r_lb3"/><l>Ma <choice><abbr>cto</abbr><expan resp="#EF" source="#LP" cert="high">c<ex>er</ex>to</del></expan></choice> il mio <persName>Simon</persName> fu in <rhyme label="a">paradiso</rhyme>.</l>
+                            <space/><l>Onde questa gentil <choice><abbr>doa</abbr><expan resp="#EF" source="#LP" cert="high">don<ex>n</ex>a</expan></choice> si <rhyme label="b">parte</rhyme>,</l>
+                            <lb n="4" facs="#c7r_l4" xml:id="c7r_lb4"/><l>Iui la uide. <choice><abbr>7</abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> la ritrasse in <rhyme label="a">carte</rhyme>'</l>
+                            <space/><l><choice><abbr>P</am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Per</ex></expan></choice> far fede quagiu del suo bel <rhyme label="b">uiso</rhyme>.</l>
+                        </lg>
+                        <lg type="terzin" rhyme="cdc">
+                            <lb n="5" facs="#c7r_l5" xml:id="c7r_lb5"/><l><w>L</w><w>opra</w> fu ben di quelle che nel<rhyme label="c">cielo</rhyme></l>
+                            <space/><l>Si <choice><abbr>poo</abbr><expan resp="#EF" source="#LP" cert="high">pon<ex>n</ex>o</expan></choice> ymaginar non qui <w>tra</w><rhyme label="d"><w>noi</w></rhyme>,</l>
+                            <lb n="6" facs="#c7r_l6" xml:id="c7r_lb6"/><l>Oue le membra <choice><abbr>fao</abbr><expan resp="#EF" source="#LP" cert="high">fan<ex>n</ex>o</expan></choice> <w>a</w><w>l</w><w>alma</w> <rhyme label="c">uelo</rhyme>.</l>
+                        </lg>
+                        <lg type="terzin" rhyme="dcd">  
+                            <space/><l>Cortesia fe'ne la potea far <rhyme label="d">poi</rhyme></l>
+                            <lb n="7" facs="#c7r_l7" xml:id="c7r_lb7"/><l>Che fu disceso a <choice><abbr>uar</abbr><expan resp="#EF" source="#LP" cert="high">p<ex>ro</ex>uar</expan></choice> caldo <choice><abbr>7</abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="c">gielo</rhyme>,</l>
+                            <space/><l><choice><abbr>7</abbr><expan resp="#EF" source="#LP" cert="high"><ex>Et</ex></expan></choice> del mortal sentiron <w>gli</w><w>occhi</w> <rhyme label="d">suoi</rhyme>.</l>
+                        </lg>
+                   </body>
+                </text>
+            
+                <lb/>
+        </body>
+    </text>
+</TEI>
